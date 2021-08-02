@@ -26,4 +26,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
+    - name: Cypress run
+      uses: cypress-io/github-actions@v2.8.2
+      with:
+        record: true
+        group: 'Semana Agilizei'
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
     - run: npm run cypress:run:dash
