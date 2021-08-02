@@ -26,11 +26,22 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
+    
+    # ACTION CRIADA ESPECILAMENTE PARA O CYPRESS    
     - name: Cypress run
       uses: cypress-io/github-actions@v2.8.2
       with:
         record: true
         group: 'Semana Agilizei'
         env:
+        #PASS THE DASHBOARD RECORD KEY AS AN ENVIROMENT VARIABLE
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          
+    #UPLOAD DE VIDEOS GERADOS
+    - name: Upload Videos
+      uses: actions/upload-artifact@v2.2.0
+     if: always()
+     with:
+       name: videos
+       path: cypress/videos
     - run: npm run cypress:run:dash
