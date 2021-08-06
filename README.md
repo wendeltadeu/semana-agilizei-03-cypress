@@ -1,4 +1,4 @@
-﻿# semana-agilizei-03-cypress
+﻿# semana-agilizei-03-cypress - Imersão GUTS-RS
  
 # A semana de imersão 1° Dia
 Aprendemos a preparação do ambiente de desenvolvimento,
@@ -14,11 +14,11 @@ em resolução mobile, ufa...
 Perspectivas de otimização de código
 
 # semana de imersão 4° Dia
-Visão geral do Dashboar, conecção e configuração ao projeto de teste,
-conceito de gist e actions do github, fantastico recurso.
+Visão geral do Dashboard, conexão e configuração ao projeto de teste,
+conceito de gist e actions do github, fantástico recurso.
 
 # Conclusão
 Foi esclarecedor e divisor de águas pra mim pois foi,
 o primeiro contato com CYpress e seus recursos básicos para testes
-automatizados, nossa quanta informação e dicas bacanas o Samuel passou,
+automatizados, nossa quanta informação e dicas bacanas 4o Samuel passou,
 superou a expectativa.
