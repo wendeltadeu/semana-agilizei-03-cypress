@@ -20,5 +20,5 @@ conceito de gist e actions do github, fantástico recurso.
 # Conclusão
 Foi esclarecedor e divisor de águas pra mim pois foi,
 o primeiro contato com CYpress e seus recursos básicos para testes
-automatizados, nossa quanta informação e dicas bacanas 4o Samuel passou,
+automatizados, nossa quanta informação e dicas bacanas o Samuel passou,
 superou a expectativa.
